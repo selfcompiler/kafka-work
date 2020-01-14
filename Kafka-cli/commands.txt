@@ -1,1 +1,13 @@
 Kafka Commands List (Cheat Sheet)
+
+To Start Zookeeper :
+
+$ zookeeper-server-start.sh config/zookeeper.properties
+
+To Start Kafka Server :
+
+$ kafka-server-start.sh config/server.properties
+
+
+
+
