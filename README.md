@@ -6,7 +6,9 @@
 5. Kafka Real World Example
 
 
-Download https://kafka.apache.org/downloads 
+Download https://kafka.apache.org/downloads
+
+
 Download from mirror : https://www.apache.org/dyn/closer.cgi?path=/kafka/2.4.0/kafka_2.12-2.4.0.tgz
 
 $ tar xvf kafka_2.12-2.4.0.tgz
