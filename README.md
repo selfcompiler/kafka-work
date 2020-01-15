@@ -39,3 +39,6 @@ server.properties: log.dirs=/your/path/to/data/kafka
 Start Zookeeper in one terminal window: zookeeper-server-start config/zookeeper.properties
 
 Start Kafka in another terminal window: kafka-server-start config/server.properties
+
+
+>> Happy Learning 
