@@ -1,0 +1,13 @@
+Producing Messages to Kafka Topic 
+
+$ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic <topic_name>
+
+$ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic
+
+>first message
+>message 2
+>message 3
+>message 4
+>message 5
+>^C (End)
+
