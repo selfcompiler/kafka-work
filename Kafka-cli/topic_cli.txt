@@ -1,4 +1,6 @@
-Kafka Commands List (Cheat Sheet)
+
+<font color="red"> Kafka Topic Commands List (Cheat Sheet) </font>
+
 
 To Start Zookeeper :
 
