@@ -1,0 +1,17 @@
+
+Consume Messages from the beginning of the Topic 
+
+$ kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic --from-beginning
+
+first message
+message 4
+message 1 ack
+message 2
+message 2 ack
+message 3
+message 5
+message 3 ack
+
+Will Print only messages which are getting produced now 
+
+$ kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic
