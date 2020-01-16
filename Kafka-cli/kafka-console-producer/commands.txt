@@ -11,3 +11,13 @@ $ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic
 >message 5
 >^C (End)
 
+
+
+Producing Messages to Kafka Topic with property 
+
+$ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic --producer-property acks=all
+
+>message 1 ack
+>message 2 ack
+>message 3 ack
+>^C
