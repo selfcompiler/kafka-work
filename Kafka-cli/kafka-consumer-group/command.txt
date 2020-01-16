@@ -1,0 +1,12 @@
+
+
+To List all the consumer groups 
+
+
+$ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
+
+
+To Describe Consumer Group 
+
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group my-second-application 
+
