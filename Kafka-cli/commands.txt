@@ -16,6 +16,15 @@ WARNING: Due to limitations in metric names, topics with a period ('.') or under
 Created topic first_topic.
 
 
+List All Existing Topics :
+
+$ kafka-topics.sh --zookeeper 127.0.0.1:2181 --list
+
+>> first_topic
+
+
+
+
 
 
 
