@@ -21,3 +21,13 @@ $ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic --p
 >message 2 ack
 >message 3 ack
 >^C
+
+
+Producing to a Topic which does not exist (It will create a topic with default config )
+
+$ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic new_topic
+
+>m 1
+[2020-01-16 10:11:19,510] WARN [Producer clientId=console-producer] Error while fetching metadata with correlation id 3 : {new_topic=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
+>m 2
+
