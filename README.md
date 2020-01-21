@@ -2,10 +2,10 @@
 
 <font color="red"> kafka-work </font>
 
-1. Kafka Theory
-2. Kafka Cluster Mgmt
-3. Kafka Cli 
-4. Kafka Java API
+1. Kafka Theory // Done
+2. Kafka Cluster Mgmt // Done
+3. Kafka Cli  // Done
+4. Kafka Java API // Done 
 5. Kafka Real World Example
 
 
